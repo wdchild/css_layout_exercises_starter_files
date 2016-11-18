@@ -9,8 +9,8 @@ body {
 
 .container {
 	height: 500px;
-	width: 803px;
-	border-width: 5px solid red; /* BORDERS NOT WORKING, I TESTED WITH RED */
+	width: 800px;
+	border: 1px solid black; /* BORDERS NOT WORKING, I TESTED WITH RED */
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -18,33 +18,33 @@ body {
 .rectangle {
 	height: 200px; /* % should also work */
 	width: 50%;
-	border-width: 3px solid black; /* INCREASED TO 3PX FOR TESTING, DOES NOT WORK */
+	border: 1px solid black; /* INCREASED TO 3PX FOR TESTING, DOES NOT WORK */
 	display: inline-block;
 }
 
 .square {
 	height: 300px; /* % should also work */
 	width: 33.33%;
-	border-width: 3px solid black; /* NOT WORKING */
+	border: 1px solid black; /* NOT WORKING */
 	display: inline-block;
 }
 
-#green {
+.green {
 	background-color: green; /* blue is left of green for some reason */
 }
 
-#blue {
+.blue {
 	background-color: blue;
 }
 
-#grey {
+.grey {
 	background-color: grey;
 }
 
-#black {
+.black {
 	background-color: black;
 }
 
-#gold {
+.gold {
 	background-color: gold;
 }
